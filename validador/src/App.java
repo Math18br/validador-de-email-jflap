@@ -24,9 +24,9 @@ public class App{
             Matcher matcher = pattern.matcher(email);
 
             if (matcher.matches()) {
-                System.out.println("✅ E-mail válido!\n");
+                System.out.println("E-mail válido!\n");
             } else {
-                System.out.println("❌ E-mail inválido.\n");
+                System.out.println("E-mail inválido.\n");
             }
         }
 
